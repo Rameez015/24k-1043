@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main(){
+
+int num1=44444444;
+printf("number is %d\n",num1);
+// limit of %d ranges from -32768 to 32768 so we use %ld
+printf("number is %ld\n",num1)
+return 0;
+}
